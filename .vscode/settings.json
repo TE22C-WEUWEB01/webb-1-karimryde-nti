@@ -9,6 +9,7 @@
     "editor.codeLens": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "files.autoSave": "afterDelay",
+    "git.postCommitCommand": "sync",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "sessionlogger.enabled": false,
