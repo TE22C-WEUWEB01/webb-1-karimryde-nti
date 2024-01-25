@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("./bilder/muhammad-saushan-hZ6tMbkAIMk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 100px;
+    color: aqua;
+    margin-top: 100px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px darkorchid;
+}
+h2 {
+    font-size: 50px;
+    color: aqua;
+    margin-left: 150px;
+    text-shadow: 2px 2px 2px darkorchid;
+}
+p {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-left: 800px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: darkorchid;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
