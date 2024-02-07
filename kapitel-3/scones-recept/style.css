@@ -1,0 +1,51 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans regler */
+body {
+    background-image: url("./bilder/vicky-ng-hlslhvvfw9w-unsplash.jpg");
+}
+
+/* Kontainer */
+div {
+    width: 700px;
+    margin: 30px auto 0 auto;
+    padding: 50px;
+    background-color: #fef991;
+    color: brown;
+    border-radius: 20px;
+    border: 7px solid brown;
+    box-shadow: 0 0 20px #000;
+    font-family: "Playfair Display", serif;
+}
+
+/* Texternas utseende */
+h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ul {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    list-style-type: circle;
+}
