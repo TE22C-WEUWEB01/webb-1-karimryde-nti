@@ -1,0 +1,58 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans utseende */
+
+/* Bakgrunden */
+body.sida1 {
+    background-image: url("./bilder/pattern1.jpg");
+}
+body.sida2 {
+    background-image: url("./bilder/pattern2.png");
+}
+body.sida3 {
+    background-image: url("./bilder/pattern3.jpg");
+}
+body.sida4 {
+    background-image: url("./bilder/pattern4.png");
+}
+body.sida5 {
+    background-image: url("./bilder/pattern5.jpg");
+}
+body.sida6 {
+    background-image: url("./bilder/pattern6.png");
+}
+
+/* Kontainern */
+div {
+    width: 600px;
+    padding: 40px;
+    margin: 100px auto;
+    background: #FFF;
+    border: 10px dashed #555;
+}
+
+/* Innehållet */
+h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+a {
+    font-size: 48px;
+    text-decoration: none;
+}
