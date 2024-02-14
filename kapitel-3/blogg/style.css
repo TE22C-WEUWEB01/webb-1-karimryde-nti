@@ -1,0 +1,53 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Bakgrunden utseende */
+body {
+    background: #FB8500;
+}
+
+/* Kontainers utseende */
+.kontainer {
+    background: #8ECAE6;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+h1 {
+    font-size: 60px;
+    color: #023047;
+    text-align: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+/* Inläggens utseende */
+.inlagg {
+    background: #219EBC;
+    width: 600px;
+    margin: auto auto 30px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #929292;
+}
+img {
+    width: 400px;
+    border: 20px solid #FFF;
+}
+.datum {
+    text-align: left;
+}
+p {
+    text-align: left;
+}
