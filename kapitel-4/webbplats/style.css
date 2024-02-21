@@ -1,0 +1,75 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS HEX */
+:root  {
+    --isabelline: #edede9ff;
+    --timberwolf: #d6ccc2ff;
+    --linen: #f5ebe0ff;
+    --champagne-pink: #e3d5caff;
+    --pale-dogwood: #d5bdafff;
+}
+
+/* Bakgrund */
+body {
+    background: var(--linen);
+}
+
+/* Sidan */
+.kontainer {
+    font-family: "PT Sans", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: var(--pale-dogwood);
+}
+
+/* Meny */
+.kontainer h1 {
+    font-family: "Modak", system-ui;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--isabelline);
+}
+.kontainer ul {
+
+}
+.kontainer li {
+
+}
+.kontainer ul .aktiv {
+
+}
+
+/* innehållet på sida */
+.kontainer h2 {
+
+}
+.kontainer figure {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+.kontainer figure img {
+    width: 100%;
+}
+.kontainer figure figcaption {
+
+}
+.kontainer p {
+
+}
+.kontainer .sidfot {
+
+}
