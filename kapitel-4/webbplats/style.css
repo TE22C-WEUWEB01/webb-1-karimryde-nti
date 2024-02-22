@@ -52,6 +52,7 @@ body {
     list-style-type: none;
 }
 .kontainer .meny a {
+    color: #000;
     text-align: center; /* Text i mitten av knappen */
     text-decoration: none;
     background-color: #fff;

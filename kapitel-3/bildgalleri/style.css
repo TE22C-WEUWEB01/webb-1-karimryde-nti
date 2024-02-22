@@ -22,6 +22,18 @@ body {
     margin: 20px auto;
 
 }
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #FFF;
+    margin: 10px;
+}
+h2 {
+    font-size: 30px;
+    color: #FFF;
+    margin: 20px;
+    text-align: center;
+}
 
 /* rutorna med bilder och bildtext */
 .ruta {
