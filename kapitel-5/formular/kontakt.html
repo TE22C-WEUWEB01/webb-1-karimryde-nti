@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontaktformulär</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Kontaktuppgifter</h1>
+        <form action="">
+            <fieldset>
+                <legend>Namnuppgifter</legend>
+                <label for="fnamn">Förnamn</label><input id="fnamn" type="text">
+                <label for="enamn">Efternamn</label><input id="enamn" type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Adressuppgifter</legend>
+                <label for="">Gatuadress</label><input type="text">
+                <label for="">Postnr</label><input type="text">
+                <label for="">Postadress</label><input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Kontaktuppgifter</legend>
+                <label for="">Mobil</label><input type="text">
+                <label for="">Epost</label><input type="email">
+
+                <label for="">Kommun</label>
+                <select name="" id="">
+                    <option value="">Stockholm</option>
+                    <option value="">Sundbyberg</option>
+                    <option value="">Kista</option>
+                    <option value="">Sollentuna</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Kön</legend>
+                <label for="">Man</label><input type="radio" name="kon" id=""> 
+                <label for="">Kvinna</label><input type="radio" name="kon" id=""> 
+                <label for="">Vill ej ange</label><input type="radio" name="kon" id=""> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Allergier</legend>
+                <label for="">Gluten</label><input type="checkbox" name="allergi" id="">  
+                <label for="">Laktos</label><input type="checkbox" name="allergi" id="">  
+                <label for="">Nötter</label><input type="checkbox" name="allergi" id=""> 
+            </fieldset>
+
+            <fieldset class="en-kolumn">
+                <legend>Kommentar</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
