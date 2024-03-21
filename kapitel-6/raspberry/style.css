@@ -1,0 +1,44 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans layout */
+body {
+
+}
+.kontainer {
+    width: 1150px;
+    margin: 30px auto;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/* Kolumnernas utseende */
+.kontainer .kolumner-3 {
+    display: grid; /* Skapar kolumner */
+    grid-template-columns: 1fr 1fr 1fr; /* 3 lika stora */
+    gap: 25px; /* Glappet mellan kolumnerna */
+}
+.kontainer .kolumn {
+
+}
+.kontainer .kolumn img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.kontainer .kolumn p {
+    margin-top: 20px;
+    height: 60px;
+}
+.kontainer .kolumn .mer {
+    font-weight: bold;
+}
