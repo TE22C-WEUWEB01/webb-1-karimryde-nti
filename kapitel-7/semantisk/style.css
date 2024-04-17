@@ -14,19 +14,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 body {
     background-color: #8e8e8e;
 }
-.kontainer {
-    width: 900px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 4fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud"
-    "artikel sidebar"
-    "sidfot sidfot";
-}
+
 
 /* Sidhuvudet */
 .kontainer header {
@@ -55,8 +43,8 @@ body {
     color: #fff;
 }
 
-.kontainer main article {
-    grid-area: artikel;
+.kontainer main {
+    grid-area: innehåll;
     background: #c8c8c8;
 }
 .kontainer main aside {
@@ -66,4 +54,38 @@ body {
 
 .kontainer footer{
     grid-area: sidfot;
+}
+
+
+@media (max-width: 1200px) {
+    .kontainer {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "innehåll sidebar"
+    "sidfot sidfot";
+    }
+}
+/* För skärmbredd max 450px */
+@media (max-width: 450px) {
+    .kontainer {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        background: #fff;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 4fr 1fr;
+        grid-template-areas: 
+        "sidhuvud"
+        "innehåll"
+        "sidebar"
+        "sidfot";
+    }
 }
