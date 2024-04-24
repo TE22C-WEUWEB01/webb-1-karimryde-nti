@@ -1,0 +1,93 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS HEX */
+:root  {
+    --isabelline: #edede9ff;
+    --timberwolf: #d6ccc2ff;
+    --linen: #f5ebe0ff;
+    --champagne-pink: #e3d5caff;
+    --pale-dogwood: #d5bdafff;
+}
+
+/* Bakgrund */
+body {
+    background: var(--linen);
+}
+
+/* Sidan */
+.kontainer {
+    font-family: "PT Sans", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: var(--pale-dogwood);
+}
+
+/* Meny */
+.kontainer h1 {
+    font-family: "Modak", system-ui;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    color: var(--isabelline);
+}
+.kontainer .meny {
+    display: flex; /* För att får horisontell meny */
+    gap: 20px; /* Lite mellanrum */
+    justify-content: center; /* Meny i mitten */
+}
+.kontainer .meny li {
+    list-style-type: none;
+}
+.kontainer .meny a {
+    color: #000;
+    text-align: center; /* Text i mitten av knappen */
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    width: 120px;
+    box-shadow: 1px 1px 2px;
+    display: inline-block; /* Fix */
+}
+.kontainer .meny .aktiv {
+    background-color: #f2d557;
+}
+.kontainer .meny a:hover {
+    background-color: #f2d557;
+}
+
+/* innehållet på sida */
+.kontainer h2 {
+    text-align: center;
+    margin: 15px;
+}
+.kontainer figure {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+.kontainer figure img {
+    width: 100%;
+}
+.kontainer figure figcaption {
+
+}
+.kontainer p {
+    padding: 20px;
+}
+.kontainer .sidfot {
+
+}
